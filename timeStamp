@@ -1,0 +1,6 @@
+// création de timstamp.
+const date: number = Date.now();
+// convertion de number en format string.
+const version: string = date.toString();
+// enregistrement de la valeur du localStorage.
+this._storageService.saveLocal('version', version);
